@@ -4,7 +4,7 @@ category: '[FengYun2]/Decoder'
 
 parameters:
 -   id: threshold
-    label: Deframer Threshold
+    label: Deframers Threshold
     dtype: int
     default: '7'
     hide: none
