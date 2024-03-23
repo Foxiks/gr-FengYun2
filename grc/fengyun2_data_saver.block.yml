@@ -1,0 +1,23 @@
+id: fengyun2_data_saver
+label: FengYun-2 S-VISSR2.0 Data Saver
+category: '[FengYun2]/Core'
+
+parameters:
+- id: path
+  label: Decoded Data File Path
+  dtype: file_save
+  default: '/home/user/'
+- id: log_state
+  label: Log
+  dtype: int
+  default: 'True'
+
+inputs:
+-   domain: message
+    id: in
+
+templates:
+    imports: import fengyun2
+    make: fengyun2.fengyun2_data_saver(${path}, ${log_state})
+
+file_format: 1

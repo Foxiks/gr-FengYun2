@@ -1,0 +1,17 @@
+id: pdu_hash_analyzer
+label: PDU Hash Analyzer
+category: '[FengYun2]/Core'
+
+inputs:
+-   domain: message
+    id: in
+
+outputs:
+-   domain: message
+    id: out
+
+templates:
+    imports: import fengyun2
+    make: fengyun2.pdu_hash_analyzer()
+
+file_format: 1

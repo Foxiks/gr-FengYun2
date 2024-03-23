@@ -1,0 +1,20 @@
+id: fengyun2_decoder
+label: FengYun-2 S-VISSR2.0 Decoder
+category: '[FengYun2]/Decoder'
+
+parameters:
+- id: path
+  label: Output Path
+  dtype: string
+  default: '/home/user/'
+
+inputs:
+-   label: in
+    dtype: byte
+    vlen: 1
+
+templates:
+    imports: import fengyun2
+    make: fengyun2.fengyun2_decoder(${path})
+
+file_format: 1

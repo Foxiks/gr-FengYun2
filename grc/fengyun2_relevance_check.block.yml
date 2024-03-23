@@ -1,0 +1,17 @@
+id: fengyun2_relevance_check
+label: FengYun-2 S-VISSR2.0 Frames Relevance Check
+category: '[FengYun2]/Core'
+
+inputs:
+-   domain: message
+    id: in
+
+outputs:
+-   domain: message
+    id: out
+
+templates:
+    imports: import fengyun2
+    make: fengyun2.fengyun2_relevance_check()
+
+file_format: 1

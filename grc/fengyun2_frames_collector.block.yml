@@ -1,0 +1,27 @@
+id: fengyun2_frames_collector
+label: FengYun-2 S-VISSR2.0 Frames Collector
+category: '[FengYun2]/Core'
+
+inputs:
+-   domain: message
+    id: in 0
+-   domain: message
+    id: in 1
+-   domain: message
+    id: in 2
+-   domain: message
+    id: in 3
+-   domain: message
+    id: in 4
+-   domain: message
+    id: in 5
+
+outputs:
+-   domain: message
+    id: out
+
+templates:
+    imports: import fengyun2
+    make: fengyun2.fengyun2_frames_collector()
+
+file_format: 1

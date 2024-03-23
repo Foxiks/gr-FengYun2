@@ -1,0 +1,6 @@
+/*!
+ * \defgroup block GNU Radio FENGYUN2 C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the FENGYUN2 GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */

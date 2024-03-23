@@ -1,0 +1,28 @@
+id: fengyun2_sync_derand
+label: FengYun-2 S-VISSR2.0 Deframer and Derandomizer
+category: '[FengYun2]/Decoder'
+
+parameters:
+-   id: threshold
+    label: Deframer Threshold
+    dtype: int
+    default: '7'
+    hide: none
+
+inputs:
+-   label: Input Bits
+    dtype: byte
+    vlen: 1
+
+outputs:
+-   label: out
+    dtype: byte
+    vlen: 1
+
+templates:
+    imports: import fengyun2
+    make: fengyun2.fengyun2_sync_derand(${ threshold })
+    callbacks:
+    - set_threshold(${ threshold })
+
+file_format: 1

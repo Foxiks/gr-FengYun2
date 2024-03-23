@@ -1,0 +1,22 @@
+id: fengyun2_diff_decoder
+label: FengYun-2 S-VISSR2.0 Differential Decoder
+category: '[FengYun2]/Decoder'
+
+parameters: []
+
+inputs:
+-   label: Input Bits
+    dtype: byte
+    vlen: 1
+
+outputs:
+-   label: Output Bits
+    dtype: byte
+    vlen: 1
+
+templates:
+    imports: import fengyun2
+    make: fengyun2.fengyun2_diff_decoder()
+    callbacks: []
+
+file_format: 1

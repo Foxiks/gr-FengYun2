@@ -1,0 +1,23 @@
+id: messages_skip_head
+label: PDU Header Skip
+category: '[FengYun2]/Core'
+
+parameters:
+- id: skip
+  label: Skip bytes
+  dtype: int
+  default: '8'
+
+inputs:
+-   domain: message
+    id: in
+
+outputs:
+-   domain: message
+    id: out
+
+templates:
+    imports: import fengyun2
+    make: fengyun2.messages_skip_head(${skip})
+
+file_format: 1

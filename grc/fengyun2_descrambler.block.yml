@@ -1,0 +1,17 @@
+id: fengyun2_descrambler
+label: FengYun-2 S-VISSR2.0 Descrambler
+category: '[FengYun2]/Core'
+
+inputs:
+-   domain: message
+    id: in
+
+outputs:
+-   domain: message
+    id: out
+
+templates:
+    imports: import fengyun2
+    make: fengyun2.fengyun2_descrambler()
+
+file_format: 1
