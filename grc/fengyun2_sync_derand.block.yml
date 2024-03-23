@@ -1,5 +1,5 @@
 id: fengyun2_sync_derand
-label: FengYun-2 S-VISSR2.0 Deframer and Derandomizer
+label: FengYun-2 S-VISSR2.0 Deframer and Derandonizer
 category: '[FengYun2]/Decoder'
 
 parameters:
