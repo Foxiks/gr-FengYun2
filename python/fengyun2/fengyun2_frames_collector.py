@@ -41,7 +41,7 @@ class fengyun2_frames_collector(gr.sync_block):
             print('[ERROR] Received invalid message type. Expected u8vector')
             return
         msg_out = pmt.u8vector_elements(msg)
-        if(hash(bytes(msg_out)) not in self.hash_arr):
+        if(hash(bytes(msg_out[:1024])) not in self.hash_arr):
             self.hash_arr.append(hash(bytes(msg_out[:1024])))
             msg_out = pmt.init_u8vector(len(msg_out), msg_out)
             msg_out = pmt.cons(pmt.car(msg_pmt), msg_out)
@@ -55,7 +55,7 @@ class fengyun2_frames_collector(gr.sync_block):
             print('[ERROR] Received invalid message type. Expected u8vector')
             return
         msg_out = pmt.u8vector_elements(msg)
-        if(hash(bytes(msg_out)) not in self.hash_arr):
+        if(hash(bytes(msg_out[:1024])) not in self.hash_arr):
             self.hash_arr.append(hash(bytes(msg_out[:1024])))
             msg_out = pmt.init_u8vector(len(msg_out), msg_out)
             msg_out = pmt.cons(pmt.car(msg_pmt), msg_out)
@@ -69,7 +69,7 @@ class fengyun2_frames_collector(gr.sync_block):
             print('[ERROR] Received invalid message type. Expected u8vector')
             return
         msg_out = pmt.u8vector_elements(msg)
-        if(hash(bytes(msg_out)) not in self.hash_arr):
+        if(hash(bytes(msg_out[:1024])) not in self.hash_arr):
             self.hash_arr.append(hash(bytes(msg_out[:1024])))
             msg_out = pmt.init_u8vector(len(msg_out), msg_out)
             msg_out = pmt.cons(pmt.car(msg_pmt), msg_out)
@@ -83,7 +83,7 @@ class fengyun2_frames_collector(gr.sync_block):
             print('[ERROR] Received invalid message type. Expected u8vector')
             return
         msg_out = pmt.u8vector_elements(msg)
-        if(hash(bytes(msg_out)) not in self.hash_arr):
+        if(hash(bytes(msg_out[:1024])) not in self.hash_arr):
             self.hash_arr.append(hash(bytes(msg_out[:1024])))
             msg_out = pmt.init_u8vector(len(msg_out), msg_out)
             msg_out = pmt.cons(pmt.car(msg_pmt), msg_out)
@@ -97,7 +97,7 @@ class fengyun2_frames_collector(gr.sync_block):
             print('[ERROR] Received invalid message type. Expected u8vector')
             return
         msg_out = pmt.u8vector_elements(msg)
-        if(hash(bytes(msg_out)) not in self.hash_arr):
+        if(hash(bytes(msg_out[:1024])) not in self.hash_arr):
             self.hash_arr.append(hash(bytes(msg_out[:1024])))
             msg_out = pmt.init_u8vector(len(msg_out), msg_out)
             msg_out = pmt.cons(pmt.car(msg_pmt), msg_out)
@@ -111,7 +111,7 @@ class fengyun2_frames_collector(gr.sync_block):
             print('[ERROR] Received invalid message type. Expected u8vector')
             return
         msg_out = pmt.u8vector_elements(msg)
-        if(hash(bytes(msg_out)) not in self.hash_arr):
+        if(hash(bytes(msg_out[:1024])) not in self.hash_arr):
             self.hash_arr.append(hash(bytes(msg_out[:1024])))
             msg_out = pmt.init_u8vector(len(msg_out), msg_out)
             msg_out = pmt.cons(pmt.car(msg_pmt), msg_out)
