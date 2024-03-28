@@ -7,7 +7,7 @@ Forked from [gr-soniks](https://github.com/Foxiks/gr-soniks)
 ### Install Dependencies
 1. GNURadio 3.10
 2. gr-Satellites: https://github.com/daniestevez/gr-satellites
-3. OpenCV2 ```sudo apt-get install python3-opencv```
+3. OpenCV2 ```sudo apt-get install python3-opencv git cmake libusb-1.0-0-dev libboost-all-dev gnuradio-dev liblog4cpp5-dev swig```
 4. ``` python3 -m pip install hexhamming construct Pillow```
 
 ### Installation
