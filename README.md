@@ -27,5 +27,11 @@ Here is your flowgraph for demodulating and decoding FengYun2 signal:
 
 ![1](/readme/1.png)
 
+![2](/readme/3.png)
+
+![3](/readme/1_2.png)
+
+![4](/readme/2.png)
+
 ### Documentation of the S-VISSR 2.0 data transfer protocol
 [FY2VISSR2.0](/readme/FY2VISSR2_0_en.pdf)
