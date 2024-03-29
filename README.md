@@ -27,11 +27,25 @@ Here is your flowgraph for demodulating and decoding FengYun2 signal:
 
 ![1](/readme/1.png)
 
+### Visible channel (Original width: 9168px)
+
 ![2](/readme/3.png)
+
+### Several crops
 
 ![3](/readme/1_2.png)
 
 ![4](/readme/2.png)
 
+### Low res IR channels
+
+![5](/readme/IR-CH_1.png)
+
+![6](/readme/IR-CH_2.png)
+
+![7](/readme/IR-CH_3.png)
+
+![8](/readme/IR-CH_4.png)
+
 ### Documentation of the S-VISSR 2.0 data transfer protocol
-[FY2VISSR2.0](/readme/FY2VISSR2_0_en.pdf)
+[[FY2VISSR2.0](/readme/FY2VISSR2_0_en.pdf)]
