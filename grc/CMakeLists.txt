@@ -7,5 +7,7 @@
 #
 
 install(FILES
-    Fengyun2_deframer.block.yml DESTINATION share/gnuradio/grc/blocks
+    Fengyun2_deframer.block.yml
+    Fengyun2_derandomizer.block.yml
+    Fengyun2_header_skip.block.yml DESTINATION share/gnuradio/grc/blocks
 )

@@ -29,7 +29,9 @@ include(GrPybind)
 ########################################################################
 
 list(APPEND Fengyun2_python_files
-    deframer_python.cc python_bindings.cc)
+    deframer_python.cc
+    derandomizer_python.cc
+    header_skip_python.cc python_bindings.cc)
 
 GR_PYBIND_MAKE_OOT(Fengyun2
    ../../..

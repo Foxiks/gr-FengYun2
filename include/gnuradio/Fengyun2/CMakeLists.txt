@@ -11,5 +11,7 @@
 ########################################################################
 install(FILES
     api.h
-    deframer.h DESTINATION include/gnuradio/Fengyun2
+    deframer.h
+    derandomizer.h
+    header_skip.h DESTINATION include/gnuradio/Fengyun2
 )

@@ -22,6 +22,8 @@ namespace py = pybind11;
 /**************************************/
 // BINDING_FUNCTION_PROTOTYPES(
     void bind_deframer(py::module& m);
+    void bind_derandomizer(py::module& m);
+    void bind_header_skip(py::module& m);
 // ) END BINDING_FUNCTION_PROTOTYPES
 
 
@@ -51,5 +53,7 @@ PYBIND11_MODULE(Fengyun2_python, m)
     /**************************************/
     // BINDING_FUNCTION_CALLS(
     bind_deframer(m);
+    bind_derandomizer(m);
+    bind_header_skip(m);
     // ) END BINDING_FUNCTION_CALLS
 }

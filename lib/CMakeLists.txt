@@ -13,6 +13,8 @@ include(GrPlatform) #define LIB_SUFFIX
 
 list(APPEND Fengyun2_sources
     deframer_impl.cc
+    derandomizer_impl.cc
+    header_skip_impl.cc
 )
 
 set(Fengyun2_sources "${Fengyun2_sources}" PARENT_SCOPE)
